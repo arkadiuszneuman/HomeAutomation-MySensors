@@ -1,3 +1,5 @@
+// Wgrywanie na mini przez Arduino działa tylko przez VS
+
 /**
  * The MySensors Arduino library handles the wireless radio link and protocol
  * between your home built sensors/actuators and HA controller of choice.
@@ -40,7 +42,7 @@
 #include <MySensors.h>
 #include <SPI.h>
 
-#define RELAY_1  3  // Arduino Digital I/O pin number for first relay (second on pin+1 etc)
+#define RELAY_1  7  // Arduino Digital I/O pin number for first relay (second on pin+1 etc)
 #define NUMBER_OF_RELAYS 1 // Total number of attached relays
 #define RELAY_ON 1  // GPIO value to write to turn on attached relay
 #define RELAY_OFF 0 // GPIO value to write to turn off attached relay
